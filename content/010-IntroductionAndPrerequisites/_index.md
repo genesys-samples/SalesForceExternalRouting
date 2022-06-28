@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Introduction and Prerequisites"
 chapter: true
 weight: 10
 ---

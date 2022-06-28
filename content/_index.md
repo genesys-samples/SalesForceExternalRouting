@@ -1,5 +1,5 @@
 ---
-title: "Genesys Workshop"
+title: "SalesForce External chat Routing"
 chapter: true
 weight: 1
 ---
