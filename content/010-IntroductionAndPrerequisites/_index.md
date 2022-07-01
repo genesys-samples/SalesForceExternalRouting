@@ -15,6 +15,7 @@ weight: 10
 3. Install the Genesys Cloud for SalesForce Managed Package
     - https://help.mypurecloud.com/articles/install-or-upgrade-the-genesys-cloud-for-salesforce-managed-package/
 4. SalesForce Agent role assigned to user in Genesys Cloud CX
+5. Familiarity with Service Cloud Voice is recommended
 
 A combination of Genesys and SalesForce is a powerful duo. It combines Genesys, a world class system of engagement, with SalesForce, a world class system of record. Today, we will focus specifically on how to integrate SalesForce OmniChannel with the Genesys Cloud CX routing engine. But what is OmniChannel? 
 
