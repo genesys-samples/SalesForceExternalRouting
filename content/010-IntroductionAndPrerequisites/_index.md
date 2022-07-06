@@ -10,7 +10,7 @@ weight: 10
 3. How to set up the OmniChannel presence sync with Genesys Cloud CX
 
 # Prerequisites
-1. Genesys Cloud CX account with adminstrator access BRAD
+1. Genesys Cloud CX account with adminstrator access 
 2. SalesForce account with adminstrator access
 3. Install the Genesys Cloud for SalesForce Managed Package
     - https://help.mypurecloud.com/articles/install-or-upgrade-the-genesys-cloud-for-salesforce-managed-package/
