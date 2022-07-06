@@ -6,6 +6,7 @@ weight: 40
 
 # Creating a Message Flow and Open Messaging Integration
 1. Steps here
+2. Make a message flow BRAD
 ## Syncing your Changes over to SalesForce
 1. In SalesForce, click on Setup
 ![SF Setup](/images/SFSetup.jpg)
