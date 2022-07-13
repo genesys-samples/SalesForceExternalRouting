@@ -45,7 +45,7 @@ Omni-Channel Flows can be launched when a customer initiates a chat, voice, or m
     - Under How to Set the Record Fields, choose "Use separate resources, and literal values"
     - From the object list, choose External Routing Request
     - Under Set Field Values for External Routing Request, we are going to set 2 fields. 
-        1. Open_Messaging_Integration__c - Set the value to the Open Messaging integration platform that you set up earlier from the picklist
+        1. Open_Messaging_Integration__c - Set the value to the Open Messaging integration platform that you set up in Genesys Cloud CX from the picklist
         2. Work_Item_ID__c - set the value to the recordId variable that we created earlier
     - Then click done
         ![Create Record Config](/images/createRecordConfig.jpg)
@@ -54,4 +54,17 @@ Omni-Channel Flows can be launched when a customer initiates a chat, voice, or m
 If you want to watch a video of these steps, you can view that here. https://youtu.be/Of6BkfCdgJ0 
 
 ## Activate the Request Deletion flow
+When you downloaded the package for external routing, it included a flow called External Routing Request Deletion. This flow will clean up the request records that are created when the following occurs: 
+   
+- Disconnected work items that are successfully routed and completed
+- The user closes the chat before it is routed to an agent
 
+Failsafe's like this are important to any implementation. We do need to activate this flow, so follow these steps: 
+
+1. In SalesForce, navigate to the setup portal. 
+![SF Setup](/images/SFSetup.jpg)
+2. In the quick find box, search for Flows.
+![Flows](/images/flows.jpg)
+3. Find the flow named External Routing Request Deletion and click on it, and then press Activate
+
+You're now ready to move on to the next section. 

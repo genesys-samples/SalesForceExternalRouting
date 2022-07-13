@@ -22,7 +22,7 @@ A Message Flow and Open Messaging integration is how Genesys can provide routing
 ![Platforms](/images/platforms.jpg)
 7. Click to create a new integration and choose Open Messaging as the type.
 ![Open Messaging](/images/openMessaging.jpg)
-8. Give the Open Messaging integration a descriptive name. For the outbound notification webhook URL, it does not matter what you put here. You can actually simply put https://whatever.com and then the Outbound Notification Webhook Signature Secret Token needs you to put a value but the value will not matter. You can simply put "123". Then press save.
+8. Give the Open Messaging integration a descriptive name. For the outbound notification webhook URL, it does not matter what you put here. You can actually simply put https://whatever.com and then the Outbound Notification Webhook Signature Secret Token needs you to put a value but the value will not matter. You can simply put "123". Then press save. This is a prepackaged integration we have with SalesForce, so these fields are not really used.
 ![Open Messaging Config](/images/openMessagingConfig.jpg)
 9. Now navigate back to the Genesys Cloud CX Admin console and then search for Message Routing
 ![Message Routing](/images/messageRouting.jpg)
