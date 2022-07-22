@@ -7,7 +7,7 @@ weight: 90
 Congrats! At this point, you've configured the external routing of SalesForce chats through the Genesys Cloud CX routing engine. Now what we need to do is find a way to test and make sure everything is working as we expect it to. For the following instructions, I am going to assume that you don't have your own website; however, if you do have your own website and wish to test on the website you can simply copy and paste the chat button code in the area on the page where you want the button to appear.
 ![Chat Button Code](/images/chatButtonCode.jpg)
 
-If you wish to test without using your own website, follow these steps: 
+If you wish to test without using your own website, follow the following steps. And if at any point you get an error message about CSP's, simply check the box and press OK. 
 1. In SalesForce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search and select All Sites under Digital Experiences
@@ -23,5 +23,15 @@ If you wish to test without using your own website, follow these steps:
 ![Embedded Service Chat](/images/embeddedServiceChat.jpg)
 7. Some configuration fields will open when you drag the Embedded Service Chat component on the screen. Under Chat Deployment, select the chat button you created from the drop down list. You can edit whatever else you like, but that is the only one that is required.
 ![Chat Deployment](/images/chatDeployment.jpg)
-8. You now should see a widget in bottom right side of screen...
+8. You now should see a widget in bottom right side of screen that either says Agent Offline or Chat with an Expert
+![SalesForce Widget](/images/SFWidget.jpg)
+9. In the top right hand side of the screen, click on preview
+10. If your widget says Agent Offline, open up a new tab and navigate to the Console where you have the OmniChannel widget deployed. Turn your OmniChannel status to Available.
+![OmniChannel Status](/images/omniChannelStatus.jpg)
+11. Lastly, navigate back to the Experience Builder website and then you may need to refresh your screen. It may take some time for your changes to take effect here (perhaps 10 min). Once your widget says Chat with an Expert, you can click that and fill out the form
+    - hint: if you fill out the form with an email & name that matches a Contact in your SalesForce account, the chat will be automatically associated with that account
+    // need picture here
+    // Why isn't this working!
+12. Back from your SalesForce console, you can accept the chat from the Genesys CTI tool which will then trigger OmniChannel to create a Chat object through OmniChannel
+![Handle Chat](/images/handleChat.jpg)
 
