@@ -1,5 +1,5 @@
 ---
-title: "OmniChannel Sync"
+title: "Omni-Channel Sync"
 chapter: true
 weight: 85
 ---
