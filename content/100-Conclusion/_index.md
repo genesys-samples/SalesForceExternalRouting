@@ -6,7 +6,6 @@ weight: 100
 
 # Conclusion
 
-Congrats! You've reached the end of today's workshop.
-Please fill out today's feedback form via this [TODO](TODO)
+Well Done! You now have an OmniChannel Chat that you can route with external routing using Genesys Cloud CX routing as the engine. 
 
-{{% children showhidden="false" %}}
+Please send any feedback or questions to workshops@genesys.com 
