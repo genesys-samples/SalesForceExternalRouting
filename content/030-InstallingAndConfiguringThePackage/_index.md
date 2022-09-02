@@ -5,6 +5,8 @@ weight: 30
 ---
 
 # Installing and Configuring the Package
+Before you can install the package, you need to be sure that you have completed all the prerequisites on this page: https://help.mypurecloud.com/articles/install-and-configure-the-genesys-cloud-for-salesforce-external-routing-package/
+
 Please follow the steps below to Install and Configure the Genesys Cloud for SalesForce External Routing package.
 1. Install the package by navigating to this link https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vlIF
 2. Choose either "Install for All Users" or "Install for Specific Profiles" depending on your preference
