@@ -4,8 +4,7 @@ chapter: true
 weight: 90
 ---
 
-Congrats! At this point, you've configured the external routing of SalesForce chats through the Genesys Cloud CX routing engine. Now what we need to do is find a way to test and make sure everything is working as we expect it to. For the following instructions, I am going to assume that you don't have your own website; however, if you do have your own website and wish to test on the website you can simply copy and paste the chat button code in the area on the page where you want the button to appear.
-![Chat Button Code](/images/chatButtonCode.jpg)
+Congrats! At this point, you've configured the external routing of SalesForce chats through the Genesys Cloud CX routing engine. Now what we need to do is find a way to test and make sure everything is working as we expect it to. For the following instructions, I am going to assume that you don't have your own website; however, if you do have your own website and wish to test on the website you can follow these instructions to do so. https://help.salesforce.com/s/articleView?language=en_US&r=https%3A%2F%2Fwww.google.com%2F&id=sf.snapins_chat_get_code.htm&type=5#:~:text=Copy%20the%20chat%20code%20snippet,page%20as%20a%20Chat%20button. 
 
 If you wish to test without using your own website, follow the following steps:
 1. In SalesForce, navigate to the setup portal. 
@@ -19,9 +18,13 @@ If you wish to test without using your own website, follow the following steps:
     - These settings don't matter too much. Just click through the wizard to create the site and press finish
 5. Once your site is created, click on Builder to edit your website.
 ![Builder](/images/builder.jpg)
-6. On the Experience Builder page, click on Components and then select the Embedded Service Chat. You can drag this component anywhere on the website.
+6. Navigate back to the Setup page (easiest to do this in a separate tab)
+7. Search for "Embedded Service Deployments" and click to create a new one
+8. Choose Embedded Chat and click next. Then give a descriptive name and select the site you just created as the endpoint
+![Embedded Service Deployment](/images/embeddedServiceDeployment.jpg)
+9. Back on the Experience Builder page, click on Components and then select the Embedded Service Chat. You can drag this component anywhere on the website.
 ![Embedded Service Chat](/images/embeddedServiceChat.jpg)
-7. Some configuration fields will open when you drag the Embedded Service Chat component on the screen. Under Chat Deployment, select the chat button you created from the drop down list. You can edit whatever else you like, but that is the only one that is required.
+7. Some configuration fields will open when you drag the Embedded Service Chat component on the screen. Under Chat Deployment, select the embedded service deployment you created from the drop down list. You can edit whatever else you like, but that is the only one that is required.
 ![Chat Deployment](/images/chatDeployment.jpg)
 8. You now should see a widget in bottom right side of screen that either says Agent Offline or Chat with an Expert
 ![SalesForce Widget](/images/SFWidget.jpg)

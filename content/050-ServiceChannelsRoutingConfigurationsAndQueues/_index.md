@@ -24,7 +24,7 @@ Routing configurations specify how work items are routed to agents. For example,
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search for Routing Configurations
 ![Routing Config Search](/images/routingConfigSearch.jpg)
-3. Click to create a new routing configuration
+3. Click to create a new routing configuration (Or if you already have a service channel for chat, you can edit that)
     - Edit the following settings: 
         - Give a descriptive routing configuration name
         - Set the routing priority to 1 (this will give this routing configuration the highest priority)
