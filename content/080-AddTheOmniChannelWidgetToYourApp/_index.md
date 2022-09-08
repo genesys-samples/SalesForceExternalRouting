@@ -11,9 +11,14 @@ First things first, we need to add the Omni-Channel utility tool to the same con
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search and select App Manager
 ![App Manager](/images/appManager.jpg)
+<<<<<<< HEAD
 3. Find the app that you have your Genesys Cloud CX for Salesforce CTI widget and then choose the arrow on the right and then edit
+=======
+3. Choose the Service Console app and then click edit
+>>>>>>> 6e4eaf433880daa4da65e31fc6c13080f7816b58
 ![Edit App](/images/editApp.jpg)
 4. In the app settings page, click on utility items and then add the Omni-Channel utility option. You can customize the label, icon, width and heigth however you like
 ![Add Widget](/images/addWidget.jpg)
+5. You also need to add the Open CTI Softphone and the GenesysCloudInteractionUtility if you haven't used the Service Console previously. 
 
 You are now ready to move on to the next section. 

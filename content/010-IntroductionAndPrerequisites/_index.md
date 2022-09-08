@@ -18,7 +18,11 @@ weight: 10
 
 A combination of Genesys and Salesforce is a powerful duo. It combines Genesys, a world class system of engagement, with Salesforce, a world class system of record. Today, we will focus specifically on how to integrate Salesforce OmniChannel with the Genesys Cloud CX routing engine. But what is OmniChannel? 
 
+<<<<<<< HEAD
 OmniChannel is a Salesforce Servcice Cloud feature. It allows customers to communicate with agents working in Salesforce via almost any channel (SMS, web chat, Facebook, etc), as implied in the name. If you are familiar with Genesys, you might be thinking "but wait, Genesys can provide the same functionality?" You would be correct, but there are some scenarios where businesses might prefer to route Salesforce OmniChannel items through Genesys Cloud CX for our robust routing capabilities. Let's unpack that, and let's start with the differences in the user interface for an agent working in Salesforce.
+=======
+OmniChannel is a SalesForce Service Cloud feature. It allows customers to communicate with agents working in SalesForce via almost any channel (SMS, web chat, Facebook, etc), as implied in the name. If you are familiar with Genesys, you might be thinking "but wait, Genesys can provide the same functionality?" You would be correct, but there are some scenarios where businesses might prefer to route SalesForce OmniChannel items through Genesys Cloud CX for our robust routing capabilities. Let's unpack that, and let's start with the differences in the user interface for an agent working in SalesForce.
+>>>>>>> 6e4eaf433880daa4da65e31fc6c13080f7816b58
 
 #### Genesys Cloud CX Objects User Experience
 ![Genesys Chat UI](/images/genesysChatUI.jpg)
@@ -30,7 +34,13 @@ With the OmniChannel integration, the user experience for agents is more embedde
 
 #### Other Scenarios Where Businesses Might Gravitate towards a Genesys Cloud and OmniChannel Integration Approach
 1. The business already uses OmniChannel for digital and is happy with it but is looking for a more enterprise level Contact Center
+<<<<<<< HEAD
 2. Business wants to take advantage of Salesforce einstein Knowledge management capabilities with OmniChannel
 3. Business wants to take advantage of Genesys Outbound campaigns inside Salesforce alongside OmniChannel for digital inbound interactions
 4. Every business is unique, so there could and will be other scenarios that are not listed here
+=======
+2. Business wants to take advantage of SalesForce einstein Knowledge management capabilities with OmniChannel
+3. Business wants to take advantage of Genesys Outbound campaigns inside SalesForce alongside OmniChannel for digital inbound interactions
+4. Every business is unique, so there will be other scenarios that are not listed here
+>>>>>>> 6e4eaf433880daa4da65e31fc6c13080f7816b58
 

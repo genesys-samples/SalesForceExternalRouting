@@ -16,16 +16,16 @@ Omni-Channel Flows can be launched when a customer initiates a chat, voice, or m
 ![Create Flow](/images/createFlow.jpg)
 4. In the toolbox, click Manager and then New Resource.
     - the new resource type will be of variable
-    - for the API name, enter recordId (it must be this name specifically)
+    - for the API name, enter *recordId* (it must be this name specifically)
     - for Data type, choose Text
-    - mark it for availability for use outside of the flow
+    - mark *Available for input* for availability for use outside of the flow
     ![Record Id](/images/recordId.jpg)
 5. Once again, in the tooblox click Manager and then New Resource. 
     - this new resource type will also be of variable
-    - for the API name, enter input_record
+    - for the API name, enter *input_record*
     - for Data type, choose Record
     - for Object, choose Chat Transcript
-    - mark it for availability for use outside of the flow
+    - mark *Available for input* for availability for use outside of the flow
     ![Input Record](/images/input_Record.jpg)
 6. In the graphical interface, press the + sign to add a new element in between the Omni-Channel Flow Start and the End. Choose Route Work as the element.
 ![Route Work](/images/routeWork.jpg)
