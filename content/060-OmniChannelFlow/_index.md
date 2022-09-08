@@ -5,10 +5,10 @@ weight: 60
 ---
 
 # Omni-Channel Flow
-Omni-Channel Flows can be launched when a customer initiates a chat, voice, or messaging conversation from SalesForce. This Omni-Channel flow is what will create the external routing request thus triggering the SalesForce interaction to route through the Message flow we set up in Architect over in Genesys Cloud CX. Let's set that up for your instance now. 
+Omni-Channel Flows can be launched when a customer initiates a chat, voice, or messaging conversation from Salesforce. This Omni-Channel flow is what will create the external routing request thus triggering the Salesforce interaction to route through the Message flow we set up in Architect over in Genesys Cloud CX. Let's set that up for your instance now. 
 
 ## Create the Omni-Channel Flow
-1. In SalesForce, navigate to the setup portal. 
+1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search for Flows.
 ![Flows](/images/flows.jpg)
@@ -61,7 +61,7 @@ When you downloaded the package for external routing, it included a flow called 
 
 Failsafe's like this are important to any implementation. We do need to activate this flow, so follow these steps: 
 
-1. In SalesForce, navigate to the setup portal. 
+1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search for Flows.
 ![Flows](/images/flows.jpg)
