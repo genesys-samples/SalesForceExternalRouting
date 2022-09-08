@@ -5,14 +5,14 @@ weight: 50
 ---
 
 ## Service Channels
-Service channels will allow us to convert SalesForce objects into a work record. They also will let you manage sources of work and their priority compared to other work items. Once you create the service channels, you can then associate them with queues which will ultimately determine how work items are routed to your agents.
+Service channels will allow us to convert Salesforce objects into a work record. They also will let you manage sources of work and their priority compared to other work items. Once you create the service channels, you can then associate them with queues which will ultimately determine how work items are routed to your agents.
 
-1. Navigate to the SalesForce Setup page
+1. Navigate to the Salesforce Setup page
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box search for Service Channels
 ![Service Channels](/images/serviceChannels.jpg)
 3. Click to create a new Service Channel
-    - The only setting you should need to change is the SalesForce object. For this drop down, choose "Chat Transcript." 
+    - The only setting you should need to change is the Salesforce object. For this drop down, choose "Chat Transcript." 
     - Optional: You can check the box to "Minimize the Omni-Channel widget when work is accepted"
     - In the end, your settings should look something like this. 
     ![Service Channel Settings](/images/serviceChannelSettings.jpg)
@@ -20,7 +20,7 @@ Service channels will allow us to convert SalesForce objects into a work record.
 ## Routing Configurations
 Routing configurations specify how work items are routed to agents. For example, you can define priority. An item routed through a routing configuration with higher priority than a different work item will be routed faster. You can also define the routing model that is used here, which will be important for us today. We are going to be using an external routing model since we are routing chats using Genesys Cloud CX. Follow along with these steps. 
 
-1. Navigate to the SalesForce Setup page
+1. Navigate to the Salesforce Setup page
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search for Routing Configurations
 ![Routing Config Search](/images/routingConfigSearch.jpg)
@@ -35,9 +35,9 @@ Routing configurations specify how work items are routed to agents. For example,
             ![Routing Config Settings](/images/routingConfigSettings.jpg)
 
 ## Queues
-A queue is a location where records can be routed to await processing by a group member. You can think of a queue like a line at the bank. At the end of the line, there are tellers that are waiting to handle your request. A queue in SalesForce also has members assigned to the queue who are waiting to handle the request once they are ready to be processed. Supervisors can monitor the performance of the queue and see how effeciently the members are handling the requests. Importantly to our scenario, queues get linked to a routing configuration. If you recall, our routing configuration used an External Routing method. This link between the Queue and the Routing Configuration is what will allow members of the queue in the SalesForce to be routed objects by Genesys Cloud CX. Follow along with these steps. 
+A queue is a location where records can be routed to await processing by a group member. You can think of a queue like a line at the bank. At the end of the line, there are tellers that are waiting to handle your request. A queue in Salesforce also has members assigned to the queue who are waiting to handle the request once they are ready to be processed. Supervisors can monitor the performance of the queue and see how effeciently the members are handling the requests. Importantly to our scenario, queues get linked to a routing configuration. If you recall, our routing configuration used an External Routing method. This link between the Queue and the Routing Configuration is what will allow members of the queue in the Salesforce to be routed objects by Genesys Cloud CX. Follow along with these steps. 
 
-1. Navigate to the SalesForce Setup page
+1. Navigate to the Salesforce Setup page
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search for Queues
 ![Queue Search](/images/queueSearch.jpg)
@@ -46,7 +46,7 @@ A queue is a location where records can be routed to await processing by a group
         - Give a descriptive label and queue name
         - For Routing configuration, search and select the routing configuration we made in the previous step
         - Under Supported Objects, move "Chat Transcript" to the Selected Objects side
-        - Under Queue Members, Search based on Users and then add yourself and any other SalesForce users you like into the queue
+        - Under Queue Members, Search based on Users and then add yourself and any other Salesforce users you like into the queue
         - Your settings should look like this
         ![Queue Setting 1](/images/queueSetting1.jpg)
         ![Queue Setting 2](/images/queueSetting2.jpg)
