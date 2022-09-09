@@ -4,14 +4,11 @@ chapter: true
 weight: 90
 ---
 
-<<<<<<< HEAD
 Congrats! At this point, you've configured the external routing of Salesforce chats through the Genesys Cloud CX routing engine. Now what we need to do is find a way to test and make sure everything is working as we expect it to. For the following instructions, I am going to assume that you don't have your own website; however, if you do have your own website and wish to test on the website you can simply copy and paste the chat button code in the area on the page where you want the button to appear.
 ![Chat Button Code](/images/chatButtonCode.jpg)
-=======
-Congrats! At this point, you've configured the external routing of SalesForce chats through the Genesys Cloud CX routing engine. Now what we need to do is find a way to test and make sure everything is working as we expect it to. For the following instructions, I am going to assume that you don't have your own website; however, if you do have your own website and wish to test on the website you can follow these instructions to do so. https://help.salesforce.com/s/articleView?language=en_US&r=https%3A%2F%2Fwww.google.com%2F&id=sf.snapins_chat_get_code.htm&type=5#:~:text=Copy%20the%20chat%20code%20snippet,page%20as%20a%20Chat%20button. 
->>>>>>> 6e4eaf433880daa4da65e31fc6c13080f7816b58
 
-If you wish to test without using your own website, follow the following steps:
+
+Follow the following steps to test without the use of your own website: 
 1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
 2. In the quick find box, search and select All Sites under Digital Experiences

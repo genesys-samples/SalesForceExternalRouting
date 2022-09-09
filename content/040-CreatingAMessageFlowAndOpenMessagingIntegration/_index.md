@@ -35,7 +35,7 @@ A Message Flow and Open Messaging integration is how Genesys can provide routing
 1. In Salesforce, click on Setup
 ![SF Setup](/images/SFSetup.jpg)
 2. Search for Installed Packages
-3. On this page, locate the Genesys Cloud for Salesforce External Routing package and click Configure
+3. On this page, locate the Genesys Cloud CX for Salesforce External Routing package and click Configure
 ![Package Configure](/images/packageConfigure.jpg)
 4. Lastly, press Retrieve Options. This will query your Genesys Cloud CX account for queues and messaging integrations to sync over into your Salesforce instance. We will then be able to use the queue and message integration that you created for setting up external routing within Salesforce.
 ![Retrieve Options](/images/retrieveOptions.jpg)
