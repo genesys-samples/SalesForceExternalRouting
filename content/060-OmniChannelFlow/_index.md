@@ -5,7 +5,7 @@ weight: 60
 ---
 
 # Omni-Channel Flow
-Omni-Channel Flows can be launched when a customer initiates a chat, voice, or messaging conversation from Salesforce. This Omni-Channel flow is what will create the external routing request thus triggering the Salesforce interaction to route through the Message flow we set up in Architect over in Genesys Cloud CX. Let's set that up for your instance now. 
+Omni-Channel Flows can be launched when a customer initiates a chat, voice, or messaging conversation from Salesforce. This Omni-Channel flow is what will create the external routing request thus triggering the Salesforce interaction to route through the Message flow we set up in Architect over in Genesys Cloud CX CX. Let's set that up for your instance now. 
 
 ## Create the Omni-Channel Flow
 1. In Salesforce, navigate to the setup portal. 
@@ -45,7 +45,7 @@ Omni-Channel Flows can be launched when a customer initiates a chat, voice, or m
     - Under How to Set the Record Fields, choose "Use separate resources, and literal values"
     - From the object list, choose External Routing Request
     - Under Set Field Values for External Routing Request, we are going to set 2 fields. 
-        1. Open_Messaging_Integration__c - Set the value to the Open Messaging integration platform that you set up in Genesys Cloud CX from the picklist
+        1. Open_Messaging_Integration__c - Set the value to the Open Messaging integration platform that you set up in Genesys Cloud CX CX from the picklist
         2. Work_Item_ID__c - set the value to the recordId variable that we created earlier
     - Then click done
         ![Create Record Config](/images/createRecordConfig.jpg)

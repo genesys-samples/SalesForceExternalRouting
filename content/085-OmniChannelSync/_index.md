@@ -3,12 +3,12 @@ title: "Omni-Channel Sync"
 chapter: true
 weight: 85
 ---
-In this workshop today, it's important to know that we now have a scenario where agents could be handling either Genesys Cloud CX interactions or Salesforce interactions that are routed through Genesys Cloud CX. Because of that fact, it means that agents have 2 separate applications where their presences are set: Genesys Cloud CX and Salesforce OmniChannel. These presences are necessary for routing and thus we need a smooth sync between the presences. Luckily, the Genesys Cloud for Salesforce package makes that very easy to manage. 
+In this workshop today, it's important to know that we now have a scenario where agents could be handling either Genesys Cloud CX CX interactions or Salesforce interactions that are routed through Genesys Cloud CX CX. Because of that fact, it means that agents have 2 separate applications where their presences are set: Genesys Cloud CX CX and Salesforce OmniChannel. These presences are necessary for routing and thus we need a smooth sync between the presences. Luckily, the Genesys Cloud CX for Salesforce package makes that very easy to manage. 
 
 1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
 2. Search for Installed Packages
-3. Find the Genesys Cloud for Salesforce package and click configure (this is NOT the external routing package we installed earlier, having this package installed was listed in our prerequisites)
+3. Find the Genesys Cloud CX for Salesforce package and click configure (this is NOT the external routing package we installed earlier, having this package installed was listed in our prerequisites)
 ![Configure Package](/images/configurePackage.jpg)
 4. Under Choose a Call Center, choose the Lightning option
 5. Navigate to the section titled "Omni-Channel Sync Settings" and click the box to Enable Omni-Channel Sync
