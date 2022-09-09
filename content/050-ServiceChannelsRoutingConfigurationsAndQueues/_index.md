@@ -18,7 +18,7 @@ Service channels will allow us to convert Salesforce objects into a work record.
     ![Service Channel Settings](/images/serviceChannelSettings.jpg)
 
 ## Routing Configurations
-Routing configurations specify how work items are routed to agents. For example, you can define priority. An item routed through a routing configuration with higher priority than a different work item will be routed faster. You can also define the routing model that is used here, which will be important for us today. We are going to be using an external routing model since we are routing chats using Genesys Cloud CX CX. Follow along with these steps. 
+Routing configurations specify how work items are routed to agents. For example, you can define priority. An item routed through a routing configuration with higher priority than a different work item will be routed faster. You can also define the routing model that is used here, which will be important for us today. We are going to be using an external routing model since we are routing chats using Genesys Cloud CX. Follow along with these steps. 
 
 1. Navigate to the Salesforce Setup page
 ![SF Setup](/images/SFSetup.jpg)
@@ -35,7 +35,7 @@ Routing configurations specify how work items are routed to agents. For example,
             ![Routing Config Settings](/images/routingConfigSettings.jpg)
 
 ## Queues
-A queue is a location where records can be routed to await processing by a group member. You can think of a queue like a line at the bank. At the end of the line, there are tellers that are waiting to handle your request. A queue in Salesforce also has members assigned to the queue who are waiting to handle the request once they are ready to be processed. Supervisors can monitor the performance of the queue and see how effeciently the members are handling the requests. Importantly to our scenario, queues get linked to a routing configuration. If you recall, our routing configuration used an External Routing method. This link between the Queue and the Routing Configuration is what will allow members of the queue in the Salesforce to be routed objects by Genesys Cloud CX CX. Follow along with these steps. 
+A queue is a location where records can be routed to await processing by a group member. You can think of a queue like a line at the bank. At the end of the line, there are tellers that are waiting to handle your request. A queue in Salesforce also has members assigned to the queue who are waiting to handle the request once they are ready to be processed. Supervisors can monitor the performance of the queue and see how effeciently the members are handling the requests. Importantly to our scenario, queues get linked to a routing configuration. If you recall, our routing configuration used an External Routing method. This link between the Queue and the Routing Configuration is what will allow members of the queue in the Salesforce to be routed objects by Genesys Cloud CX. Follow along with these steps. 
 
 1. Navigate to the Salesforce Setup page
 ![SF Setup](/images/SFSetup.jpg)
