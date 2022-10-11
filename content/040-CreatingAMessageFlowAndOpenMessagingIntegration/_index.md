@@ -4,7 +4,7 @@ chapter: true
 weight: 40
 ---
 
-A Message Flow and Open Messaging integration is how Genesys can provide routing capabilities, self service options, data lookups through integrations and much more. The Message Flow is controlled from Architect, and if you are familiar with Genesys Cloud CX, you are likely familiar with Architect. Architect is a self service Interactive Response builder for all channels in Genesys Cloud CX; whether that be voice, email, chat, message, bot building, etc. The Open Messaging integration is the endpoint that facilitates messaging with 3rd party systems and external messaging services. In this scenario, that external messaging service with be Salesforce OmniChannel.
+A Message Flow and Open Messaging integration is how Genesys can provide routing capabilities, self service options, data lookups through integrations and much more. The Message Flow is controlled from Architect, and if you are familiar with Genesys Cloud CX, you are likely familiar with Architect. Architect is a self service Interactive Response builder for all channels in Genesys Cloud CX; whether that be voice, email, chat, message, bot building, etc. The Open Messaging integration is the endpoint that facilitates messaging with 3rd party systems and external messaging services. In this scenario, that external messaging service with be Salesforce Omni-Channel.
 
 ## Creating a Message Flow and Open Messaging Integration
 1. Before we dive into Architect, ensure that your user in Genesys Cloud CX is a part of a queue. If not, follow these instructions to create a new queue and add your user as a member.

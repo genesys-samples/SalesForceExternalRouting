@@ -20,7 +20,7 @@ Omni-Channel Flows can be launched when a customer initiates a chat, voice, or m
     - for Data type, choose Text
     - mark *Available for input* for availability for use outside of the flow
     ![Record Id](/images/recordId.jpg)
-5. Once again, in the tooblox click Manager and then New Resource. 
+5. Once again, in the toolbox click Manager and then New Resource. 
     - this new resource type will also be of variable
     - for the API name, enter *input_record*
     - for Data type, choose Record
@@ -45,7 +45,7 @@ Omni-Channel Flows can be launched when a customer initiates a chat, voice, or m
     - Under How to Set the Record Fields, choose "Use separate resources, and literal values"
     - From the object list, choose External Routing Request
     - Under Set Field Values for External Routing Request, we are going to set 2 fields. 
-        1. Open_Messaging_Integration__c - Set the value to the Open Messaging integration platform that you set up in Genesys Cloud CX from the picklist
+        1. Open_Messaging_Integration__c - Set the value to the Open Messaging integration platform that you set up in Genesys Cloud CX from the pick-list
         2. Work_Item_ID__c - set the value to the recordId variable that we created earlier
     - Then click done
         ![Create Record Config](/images/createRecordConfig.jpg)
