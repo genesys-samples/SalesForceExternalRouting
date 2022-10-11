@@ -34,11 +34,11 @@ Follow the following steps to test without the use of your own website:
 10. Under Content Security Policy, change it to Relaxed CSP. If there is anything under CSP Errors, click allow.
 ![CSP Settings](/images/CSPSettings.jpg)
 11. In the top right hand side of the screen, click on preview
-12. If your widget says Agent Offline, open up a new tab and navigate to the Console where you have the OmniChannel widget deployed. Turn your OmniChannel status to Available.
-![OmniChannel Status](/images/omniChannelStatus.jpg)
+12. If your widget says Agent Offline, open up a new tab and navigate to the Console where you have the Omni-Channel widget deployed. Turn your Omni-Channel status to Available.
+![Omni-Channel Status](/images/Omni-ChannelStatus.jpg)
 13. Lastly, navigate back to the Experience Builder website and then you may need to refresh your screen. Once your widget says Chat with an Expert, you can click that and fill out the form
     - hint: if you fill out the form with an email & name that matches a Contact in your Salesforce account, the chat will be automatically associated with that account
     ![Chat Widget](/images/chatWidget.jpg)
-14. Back from your Salesforce console, you can accept the chat from the Genesys CTI tool which will then trigger OmniChannel to create a Chat object through OmniChannel
+14. Back from your Salesforce console, you can accept the chat from the Genesys CTI tool which will then trigger Omni-Channel to create a Chat object through Omni-Channel
 ![Handle Chat](/images/handleChat.jpg)
 
