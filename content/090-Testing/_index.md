@@ -1,42 +1,42 @@
 ---
-title: "Testing"
+title: "Pruebas"
 chapter: true
 weight: 90
 ---
 
-Congrats! At this point, you've configured the external routing of SalesForce chats through the Genesys Cloud CX routing engine. Now what we need to do is find a way to test and make sure everything is working as we expect it to. For the following instructions, I am going to assume that you don't have your own website; however, if you do have your own website and wish to test on the website you can follow these instructions to do so. https://help.salesforce.com/s/articleView?language=en_US&r=https%3A%2F%2Fwww.google.com%2F&id=sf.snapins_chat_get_code.htm&type=5#:~:text=Copy%20the%20chat%20code%20snippet,page%20as%20a%20Chat%20button. 
+¡Felicitaciones! En este punto, ha configurado el enrutamiento externo de los chats de SalesForce a través del motor de enrutamiento Genesys Cloud CX. Ahora lo que debemos hacer es encontrar una manera de probar y asegurarnos de que todo funcione como esperamos. Para las siguientes instrucciones, supondré que no tiene su propio sitio web; sin embargo, si tiene su propio sitio web y desea probar en el sitio web, puede seguir estas instrucciones para hacerlo. https://help.salesforce.com/s/articleView?language=en_US&r=https%3A%2F%2Fwww.google.com%2F&id=sf.snapins_chat_get_code.htm&type=5#:~:text=Copy%20the%20chat%20code%20snippet,page%20as%20a%20Chat%20button. 
 
-If you wish to test without using your own website, follow the following steps:
-1. In SalesForce, navigate to the setup portal. 
+Si desea probar sin usar su propio sitio web, siga los siguientes pasos:
+1. En SalesForce, navegue hasta el portal de configuración.
 ![SF Setup](/images/SFSetup.jpg)
-2. In the quick find box, search and select All Sites under Digital Experiences
+2. En el cuadro de búsqueda rápida, busque y seleccione Todos los sitios en Experiencias digitales
 ![All Sites](/images/allSites.jpg)
-3. Click to create a New site.
-4. Choose any template. I like the Help Center template personally. 
-    - Navigate through the config options
-    - Give the site a name & URL
-    - These settings don't matter too much. Just click through the wizard to create the site and press finish
-5. Once your site is created, click on Builder to edit your website.
+3. Haga clic para crear un nuevo sitio.
+4. Elija cualquier plantilla. Personalmente, me gusta la plantilla del Centro de ayuda.
+     - Navegar a través de las opciones de configuración
+     - Dale al sitio un nombre y URL
+     - Estos ajustes no importan demasiado. Simplemente haga clic en el asistente para crear el sitio y presione finalizar
+5. Una vez que haya creado su sitio, haga clic en Generador para editar su sitio web.
 ![Builder](/images/builder.jpg)
-6. Navigate back to the Setup page (easiest to do this in a separate tab)
-7. Search for "Embedded Service Deployments" and click to create a new one
-8. Choose Embedded Chat and click next. Then give a descriptive name and select the site you just created as the endpoint
+6. Vuelva a la página Configuración (es más fácil hacerlo en una pestaña separada)
+7. Busque "Despliegues de servicios integrados" y haga clic para crear uno nuevo
+8. Elija Chat integrado y haga clic en siguiente. Luego asigne un nombre descriptivo y seleccione el sitio que acaba de crear como punto final
 ![Embedded Service Deployment](/images/embeddedServiceDeployment.jpg)
-9. Back on the Experience Builder page, click on Components and then select the Embedded Service Chat. You can drag this component anywhere on the website.
+9. De vuelta en la página de Experience Builder, haga clic en Componentes y luego seleccione Chat de servicio integrado. Puede arrastrar este componente a cualquier parte del sitio web.
 ![Embedded Service Chat](/images/embeddedServiceChat.jpg)
-7. Some configuration fields will open when you drag the Embedded Service Chat component on the screen. Under Chat Deployment, select the embedded service deployment you created from the drop down list. You can edit whatever else you like, but that is the only one that is required.
+7. Algunos campos de configuración se abrirán cuando arrastre el componente Chat de servicio integrado en la pantalla. En Implementación de chat, seleccione la implementación del servicio integrado que creó en la lista desplegable. Puede editar cualquier otra cosa que desee, pero esa es la única que se requiere.
 ![Chat Deployment](/images/chatDeployment.jpg)
-8. You now should see a widget in bottom right side of screen that either says Agent Offline or Chat with an Expert
+8. Ahora debería ver un widget en la parte inferior derecha de la pantalla que dice Agente sin conexión o Chat con un experto
 ![SalesForce Widget](/images/SFWidget.jpg)
-9. We now need to get rid of some CSP security settings. On the left side click on the settings icon and then Security and Privacy. 
-10. Under Content Security Policy, change it to Relaxed CSP. If there is anything under CSP Errors, click allow.
+9. Ahora necesitamos deshacernos de algunas configuraciones de seguridad de CSP. En el lado izquierdo, haga clic en el icono de configuración y luego en Seguridad y privacidad.
+10. En Política de seguridad de contenido, cámbiela a CSP relajado. Si hay algo debajo de Errores de CSP, haga clic en Permitir.
 ![CSP Settings](/images/CSPSettings.jpg)
-11. In the top right hand side of the screen, click on preview
-12. If your widget says Agent Offline, open up a new tab and navigate to the Console where you have the OmniChannel widget deployed. Turn your OmniChannel status to Available.
+11. En la parte superior derecha de la pantalla, haga clic en vista previa
+12. Si su widget dice Agente fuera de línea, abra una nueva pestaña y navegue a la Consola donde tiene implementado el widget de OmniChannel. Cambie su estado de OmniChannel a Disponible.
 ![OmniChannel Status](/images/omniChannelStatus.jpg)
-13. Lastly, navigate back to the Experience Builder website and then you may need to refresh your screen. Once your widget says Chat with an Expert, you can click that and fill out the form
-    - hint: if you fill out the form with an email & name that matches a Contact in your SalesForce account, the chat will be automatically associated with that account
+13. Por último, vuelva al sitio web de Experience Builder y es posible que deba actualizar la pantalla. Una vez que su widget diga Chatea con un experto, puedes hacer clic en eso y completar el formulario.
+     - sugerencia: si completa el formulario con un correo electrónico y un nombre que coincida con un contacto en su cuenta de SalesForce, el chat se asociará automáticamente con esa cuenta
     ![Chat Widget](/images/chatWidget.jpg)
-14. Back from your SalesForce console, you can accept the chat from the Genesys CTI tool which will then trigger OmniChannel to create a Chat object through OmniChannel
+14. Al regresar de su consola de SalesForce, puede aceptar el chat de la herramienta Genesys CTI que luego activará OmniChannel para crear un objeto de chat a través de OmniChannel.
 ![Handle Chat](/images/handleChat.jpg)
 

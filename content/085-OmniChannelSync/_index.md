@@ -1,19 +1,19 @@
 ---
-title: "Omni-Channel Sync"
+title: "Sincronización Omnicanal"
 chapter: true
 weight: 85
 ---
-In this workshop today, it's important to know that we now have a scenario where agents could be handling either Genesys Cloud CX interactions or SalesForce interactions that are routed through Genesys Cloud CX. Because of that fact, it means that agents have 2 separate applications where their presences are set: Genesys Cloud CX and SalesForce OmniChannel. These presences are necessary for routing and thus we need a smooth sync between the presences. Luckily, the Genesys Cloud for SalesForce package makes that very easy to manage. 
+En este taller de hoy, es importante saber que ahora tenemos un escenario en el que los agentes podrían manejar interacciones de Genesys Cloud CX o interacciones de SalesForce que se enrutan a través de Genesys Cloud CX. Por ese hecho, significa que los agentes tienen 2 aplicaciones separadas donde se establecen sus presencias: Genesys Cloud CX y SalesForce OmniChannel. Estas presencias son necesarias para el enrutamiento y, por lo tanto, necesitamos una sincronización fluida entre las presencias. Afortunadamente, el paquete Genesys Cloud for SalesForce lo hace muy fácil de administrar.
 
-1. In SalesForce, navigate to the setup portal. 
+1. En SalesForce, navegue hasta el portal de configuración.
 ![SF Setup](/images/SFSetup.jpg)
-2. Search for Installed Packages
-3. Find the Genesys Cloud for SalesForce package and click configure (this is NOT the external routing package we installed earlier, having this package installed was listed in our prerequisites)
+2. Buscar paquetes instalados
+3. Busque el paquete de Genesys Cloud para SalesForce y haga clic en configurar (este NO es el paquete de enrutamiento externo que instalamos anteriormente, tener este paquete instalado figuraba en nuestros requisitos previos)
 ![Configure Package](/images/configurePackage.jpg)
-4. Under Choose a Call Center, choose the Lightning option
-5. Navigate to the section titled "Omni-Channel Sync Settings" and click the box to Enable Omni-Channel Sync
-6. Update the settings to match what you see in the picture below
-    - optionally, if you have custom statuses in SalesForce you wish to use, you could use those as well.
+4. En Elegir un centro de llamadas, elija la opción Lightning
+5. Navegue a la sección titulada "Configuración de sincronización omnicanal" y haga clic en el cuadro para habilitar la sincronización omnicanal
+6. Actualice la configuración para que coincida con lo que ve en la imagen a continuación
+     - opcionalmente, si tiene estados personalizados en SalesForce que desea usar, también puede usarlos.
 ![Sync Settings](/images/syncSettings.jpg)
 
-Do keep in mind that if you wish to edit the sync statuses to work differently you can. You can always come back here and edit them later. You are now ready to move on to test what we've built! 
+Tenga en cuenta que si desea editar los estados de sincronización para que funcionen de manera diferente, puede hacerlo. Siempre puedes volver aquí y editarlos más tarde. ¡Ahora está listo para pasar a probar lo que hemos construido!

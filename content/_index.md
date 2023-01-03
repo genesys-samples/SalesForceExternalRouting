@@ -1,10 +1,10 @@
 ---
-title: "SalesForce External chat Routing"
+title: "Enrutamiento de Chat Externo de SalesForce"
 chapter: true
 weight: 1
 ---
 
-### Learning Objectives
-- Learn about the Genesys and SalesForce partnership and what SalesForce OmniChannel is 
-- Setup and configure the SalesForce External Chat Routing Integration
-- Test routing salesforce chats through the Genesys Cloud routing engine
+### Objetivos de Aprendizaje
+- Conozca la asociación de Genesys y SalesForce y qué es SalesForce OmniChannel
+- Instalar y configurar la integración de enrutamiento de chat externo de SalesForce
+- Pruebe el enrutamiento de chats de Salesforce a través del motor de enrutamiento Genesys Cloud

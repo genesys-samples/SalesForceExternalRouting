@@ -1,20 +1,20 @@
 ---
-title: "Add the OmniChannel Widget to Your App"
+title: "Agregue el Widget OmniChannel a su Aplicación"
 chapter: true
 weight: 80
 ---
-The Omni-Channel utility item can be added to any Lightning Service console to route Omni-Channel work to agents. Similar to the Genesys Cloud CX for SalesForce CTI widget, this is a tool on the utility bar where agents can update their presence and manage their work.
+El elemento de la utilidad de OmniCanal se puede agregar a cualquier consola de Lightning Service para enrutar el trabajo de OmniCanal a los agentes. Similar al widget CTI de Genesys Cloud CX para SalesForce, esta es una herramienta en la barra de utilidades donde los agentes pueden actualizar su presencia y administrar su trabajo.
 ![Omni-Channel Widget](/images/omniChannelWidget.jpg)
-First things first, we need to add the Omni-Channel utility tool to the same console where we have our Genesys Cloud CX for SalesForce CTI widget. Follow these steps to do that. 
+Lo primero es lo primero, debemos agregar la herramienta de utilidad Omni-Channel a la misma consola donde tenemos nuestro widget Genesys Cloud CX para SalesForce CTI. Siga estos pasos para hacerlo.
 
-1. In SalesForce, navigate to the setup portal. 
+1. En SalesForce, navegue hasta el portal de configuración.
 ![SF Setup](/images/SFSetup.jpg)
-2. In the quick find box, search and select App Manager
+2. En el cuadro de búsqueda rápida, busque y seleccione Administrador de aplicaciones
 ![App Manager](/images/appManager.jpg)
-3. Choose the Service Console app and then click edit
+3. Elija la aplicación Consola de servicio y luego haga clic en editar
 ![Edit App](/images/editApp.jpg)
-4. In the app settings page, click on utility items and then add the Omni-Channel utility option. You can customize the label, icon, width and heigth however you like
+4. En la página de configuración de la aplicación, haga clic en los elementos de utilidad y luego agregue la opción de utilidad Omni-Channel. Puedes personalizar la etiqueta, el icono, el ancho y el alto como se quiera
 ![Add Widget](/images/addWidget.jpg)
-5. You also need to add the Open CTI Softphone and the GenesysCloudInteractionUtility if you haven't used the Service Console previously. 
+5. También debe agregar Open CTI Softphone y GenesysCloudInteractionUtility si no ha usado Service Console anteriormente.
 
-You are now ready to move on to the next section. 
+Ahora está listo para pasar a la siguiente sección.
