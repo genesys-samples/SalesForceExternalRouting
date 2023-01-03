@@ -1,13 +1,13 @@
 ---
-title: "Crear Estados de Presencia"
+title: "Create Presence Statuses"
 chapter: true
 weight: 75
 ---
 
-Los estados de presencia en SalesForce hacen que OmniChannel sepa si un agente está disponible para enrutar un chat. También sirven como informes de información sobre los supervisores sobre cuánto tiempo los agentes están haciendo ciertos tipos de trabajo.
+Presence statuses in Salesforce make Omni-Channel aware if an agent is available to be routed a chat. They also serve as reporting information on supervisors on how long agents are doing certain types of work. 
 
-## Crear estados de presencia
-1. En SalesForce, navegue hasta el portal de configuración.
+## Create Presence Statuses
+1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
-2. En el cuadro de búsqueda rápida, busque estados de presencia y haga clic en eso
-3. Debe crear al menos un estado de presencia disponible y un estado de presencia ocupado
+2. In the quick find box, search for presence statuses and click on that
+3. You need to create at least one available presence status and one busy presence status

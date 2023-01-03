@@ -1,11 +1,11 @@
 ---
-title: "Conclusión"
+title: "Conclusion"
 chapter: true
 weight: 100
 ---
 
-# Conclusión
+# Conclusion
 
-¡Bien hecho! Ahora tiene un Chat Omnicanal Chat que puede enrutar con enrutamiento externo utilizando el enrutamiento Genesys Cloud CX como motor.
+Well Done! You now have an Omni-Channel Chat that you can route with external routing using Genesys Cloud CX routing as the engine. 
 
-Envíe cualquier comentario o pregunta a workshops@genesys.com 
+Please send any feedback or questions to workshops@genesys.com 

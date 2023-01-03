@@ -1,14 +1,16 @@
 ---
-title: "Instalación y configuración del paquete"
+title: "Installing and Configuring the Package"
 chapter: true
 weight: 30
 ---
 
-# Iinstalar y configurar el paquete
-Antes de que pueda instalar el paquete, debe asegurarse de haber completado todos los requisitos previos en esta página: https://help.mypurecloud.com/articles/install-and-configure-the-genesys-cloud-for-salesforce-external-routing-package/
+# Installing and Configuring the Package
+Please follow the steps below to Install and Configure the Genesys Cloud CX for Salesforce External Routing package.
+1. Install the package by navigating to this link https://login.Salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vlIF
+    - Before you can install the package, you need to be sure that you have completed all the prerequisites on this page: https://help.mypurecloud.com/articles/install-and-configure-the-genesys-cloud-for-Salesforce-external-routing-package/
 
-Siga los pasos a continuación para instalar y configurar Genesys Cloud para el paquete de enrutamiento externo de SalesForce.
-1. Instale el paquete navegando a este enlace: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vlIF
-2. Elija "Instalar para todos los usuarios" o "Instalar para perfiles específicos" según sus preferencias
+Please follow the steps below to Install and Configure the Genesys Cloud CX for Salesforce External Routing package.
+1. Install the package by navigating to this link https://login.Salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vlIF
+2. Choose either "Install for All Users" or "Install for Specific Profiles" depending on your preference
 
-Esto es todo lo que tenemos que hacer para este paso. En el siguiente paso, crearemos nuestros componentes de configuración de Genesys Cloud y luego los sincronizaremos con nuestra cuenta de SalesForce utilizando el paquete que acabamos de instalar.
+This is all we need to do for this step. In the next step, we will create our Genesys Cloud CX configuration components and then sync them over to our Salesforce account using the package we just installed.

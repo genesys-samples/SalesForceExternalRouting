@@ -1,20 +1,21 @@
 ---
-title: "Agregue el Widget OmniChannel a su Aplicación"
+title: "Add the Omni-Channel Widget to Your App"
 chapter: true
 weight: 80
 ---
-El elemento de la utilidad de OmniCanal se puede agregar a cualquier consola de Lightning Service para enrutar el trabajo de OmniCanal a los agentes. Similar al widget CTI de Genesys Cloud CX para SalesForce, esta es una herramienta en la barra de utilidades donde los agentes pueden actualizar su presencia y administrar su trabajo.
+The Omni-Channel utility item can be added to any Lightning Service console to route Omni-Channel work to agents. Similar to the Genesys Cloud CX for Salesforce CTI widget, this is a tool on the utility bar where agents can update their presence and manage their work.
 ![Omni-Channel Widget](/images/omniChannelWidget.jpg)
-Lo primero es lo primero, debemos agregar la herramienta de utilidad Omni-Channel a la misma consola donde tenemos nuestro widget Genesys Cloud CX para SalesForce CTI. Siga estos pasos para hacerlo.
+First things first, we need to add the Omni-Channel utility tool to the same console where we have our Genesys Cloud CX for Salesforce CTI widget. Follow these steps to do that. 
 
-1. En SalesForce, navegue hasta el portal de configuración.
+1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
-2. En el cuadro de búsqueda rápida, busque y seleccione Administrador de aplicaciones
+2. In the quick find box, search and select App Manager
 ![App Manager](/images/appManager.jpg)
-3. Elija la aplicación Consola de servicio y luego haga clic en editar
+3. Find the app that you have your Genesys Cloud CX for Salesforce CTI widget and then choose the arrow on the right and then edit
+4. Choose the Service Console app and then click edit
 ![Edit App](/images/editApp.jpg)
-4. En la página de configuración de la aplicación, haga clic en los elementos de utilidad y luego agregue la opción de utilidad Omni-Channel. Puedes personalizar la etiqueta, el icono, el ancho y el alto como se quiera
+5. In the app settings page, click on utility items and then add the Omni-Channel utility option. You can customize the label, icon, width and height however you like
 ![Add Widget](/images/addWidget.jpg)
-5. También debe agregar Open CTI Softphone y GenesysCloudInteractionUtility si no ha usado Service Console anteriormente.
+6. You also need to add the Open CTI Softphone and the GenesysCloudInteractionUtility if you haven't used the Service Console previously. 
 
-Ahora está listo para pasar a la siguiente sección.
+You are now ready to move on to the next section. 

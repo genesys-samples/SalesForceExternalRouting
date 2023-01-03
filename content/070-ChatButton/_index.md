@@ -1,23 +1,23 @@
 ---
-title: "Botón de Chat"
+title: "Chat Button"
 chapter: true
 weight: 70
 ---
 
-Los botones de chat en SalesForce le permiten especificar cómo se dirigen las solicitudes de chat entrantes a los agentes. Estos son similares a los widgets de chat de Genesys si está familiarizado con ellos. Estos son literalmente los botones en los que los visitantes hacen clic para iniciar un chat cuando visitan su sitio web. Un botón consta de varias líneas de JavaScript que puede copiar y pegar en las páginas web de su sitio web.
+Chat buttons in Salesforce let you specify how incoming chat requests are directed to agents. These are similar to Genesys chat widgets if you are familiar with those. These are literally the buttons that visitors click to initiate a chat when visiting your website. A button consists of several lines of JavaScript that you can copy and paste into web pages on your website.
 
 ## Create a Chat Button
-1. En SalesForce, navegue hasta el portal de configuración. 
+1. In Salesforce, navigate to the setup portal. 
 ![SF Setup](/images/SFSetup.jpg)
-2. En el cuadro de búsqueda rápida, busque y seleccione Invitaciones y botones de chat
-3. Haga clic para crear un nuevo botón de chat y siga los siguientes componentes de configuración
-     - Para el tipo, elija Botón de chat
-     - Dar un nombre descriptivo
-     - En Información de enrutamiento, configure el Tipo de enrutamiento como Omnicanal.
-     - Marque la casilla para "Usar un flujo para el enrutamiento"
-     - En el cuadro Flujo omnicanal, busque y encuentre el flujo que creamos al comienzo del taller.
-     - Busca y selecciona tu cola que creamos en el taller
-     - Marque la casilla para "Habilitar cola"
-     - Establezca el tamaño de cola por agente en 5 (puede cambiar este número más tarde si lo desea)
-     - Presiona guardar. Su configuración debería ser algo como esto: 
+2. In the quick find box, search and select Chat Buttons & Invitations
+3. Click to create a new chat button and follow along with the following configuration components
+    - For the type, choose Chat Button
+    - Give a descriptive Name
+    - Under Routing Information, set the Routing Type as Omni-Channel
+    - Check the box to "Use a flow for routing"
+    - In the Omni-Channel Flow box, search and find the flow that we created at the beginning of the workshop
+    - Search and select your queue that we created in the workshop
+    - Check the box to "Enable queue"
+    - Set Queue Size Per Agent to 5 (You could change this number later if you want)
+    - Press save. Your configuration should look something like this: 
     ![Chat Button Config](/images/chatButtonConfig.jpg)

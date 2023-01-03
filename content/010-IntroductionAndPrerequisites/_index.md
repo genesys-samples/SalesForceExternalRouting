@@ -1,36 +1,43 @@
 ---
-title: "Introducción y requisitos previos"
+title: "Introduction and Prerequisites"
 chapter: true
 weight: 10
 ---
 
-# Agenda de aprendizaje de hoy
-1. La asociación de Genesys y SalesForce
-2. Cómo instalar, configurar y probar el enrutamiento de un chat de SalesForce a través del motor de enrutamiento Genesys Cloud CX
-3. Cómo configurar la sincronización de presencia OmniChannel con Genesys Cloud CX
+# Todays Learning Agenda
+1. The Genesys and Salesforce partnership
+2. How to install, configure, and test the routing of a Salesforce Chat through the Genesys Cloud CX routing engine
+3. How to set up the Omni-Channel presence sync with Genesys Cloud CX
 
-# requisitos previos
-1. Cuenta Genesys Cloud CX con acceso de administrador
-2. Cuenta de SalesForce con acceso de administrador
-3. Instale Genesys Cloud for SalesForce Managed Package
-    - https://help.mypurecloud.com/articles/install-or-upgrade-the-genesys-cloud-for-salesforce-managed-package/
-4. Rol de agente de SalesForce asignado al usuario en Genesys Cloud CX
+# Prerequisites
+1. Genesys Cloud CX account with administrator access 
+2. Salesforce account with administrator access
+3. Install the Genesys Cloud CX for Salesforce Managed Package
+    - https://help.mypurecloud.com/articles/install-or-upgrade-the-genesys-cloud-for-Salesforce-managed-package/
+4. Salesforce Agent role assigned to user in Genesys Cloud CX
 
-Una combinación de Genesys y SalesForce es un dúo poderoso. Combina Genesys, un sistema de compromiso de clase mundial, con SalesForce, un sistema de registro de clase mundial. Hoy nos centraremos específicamente en cómo integrar SalesForce OmniChannel con el motor de enrutamiento Genesys Cloud CX. Pero, ¿qué es OmniChannel?
+A combination of Genesys and Salesforce is a powerful duo. It combines Genesys, a world class system of engagement, with Salesforce, a world class system of record. Today, we will focus specifically on how to integrate Salesforce Omni-Channel with the Genesys Cloud CX routing engine. But what is Omni-Channel? 
 
-OmniChannel es una función de SalesForce Service Cloud. Permite a los clientes comunicarse con los agentes que trabajan en SalesForce a través de casi cualquier canal (SMS, chat web, Facebook, etc.), como se indica en el nombre. Si está familiarizado con Genesys, es posible que esté pensando "pero espere, Genesys puede proporcionar la misma funcionalidad". Tendría razón, pero hay algunos escenarios en los que las empresas pueden preferir enrutar elementos de SalesForce OmniChannel a través de Genesys Cloud CX para nuestras sólidas capacidades de enrutamiento. Analicemos eso y comencemos con las diferencias en la interfaz de usuario para un agente que trabaja en SalesForce.
+Omni-Channel is a Salesforce Service Cloud feature. It allows customers to communicate with agents working in Salesforce via almost any channel (SMS, web chat, Facebook, etc), as implied in the name. If you are familiar with Genesys, you might be thinking "but wait, Genesys can provide the same functionality?" You would be correct, but there are some scenarios where businesses might prefer to route Salesforce Omni-Channel items through Genesys Cloud CX for our robust routing capabilities. Let's unpack that, and let's start with the differences in the user interface for an agent working in Salesforce.
 
-#### Experiencia de usuario de Genesys Cloud CX Objects
+Omni-Channel is a Salesforce Service Cloud feature. It allows customers to communicate with agents working in Salesforce via almost any channel (SMS, web chat, Facebook, etc), as implied in the name. If you are familiar with Genesys, you might be thinking "but wait, Genesys can provide the same functionality?" You would be correct, but there are some scenarios where businesses might prefer to route Salesforce Omni-Channel items through Genesys Cloud CX for our robust routing capabilities. Let's unpack that, and let's start with the differences in the user interface for an agent working in Salesforce.
+
+
+#### Genesys Cloud CX Objects User Experience
 ![Genesys Chat UI](/images/genesysChatUI.jpg)
-Aquí puede ver que los agentes manejan las interacciones basadas en texto en un widget emergente llamado "GenesysCloudInteractionUtility". Toda la funcionalidad aquí es Genesys: un enrutamiento de chat de Genesys a través de Architect en una cola de Genesys.
+Here you can see that the agents handle the text based interactions in a pop up widget named "GenesysCloudInteractionUtility." All functionality here is Genesys: a Genesys chat routing through Architect into a Genesys queue.
 
-#### Experiencia de usuario de objetos de SalesForce OmniChannel
-![OmniChannel Chat UI](/images/omniChannelChatUI.jpg)
-Con la integración de OmniChannel, la experiencia del usuario para los agentes está más integrada en la página. Puede ver que cuando un chat coincide con un contacto, crea un nuevo objeto de chat en SalesForce y lo asocia con un contacto. El agente puede entonces responder al chat sin necesidad de ningún tipo de widget emergente. Aquí, la funcionalidad se divide entre SalesForce y Genesys: el chat en sí es SalesForce, pero Genesys realiza el enrutamiento.
+#### Salesforce Omni-Channel Objects User Experience
+![Omni-Channel Chat UI](/images/omniChannelChatUI.jpg)
+With the Omni-Channel integration, the user experience for agents is more embedded in the page. You can see that when a chat is matched to a contact, it creates a new Chat object in Salesforce and associates that with a contact. The agent can then respond to the chat without the need for any kind of pop up widget. Here the functionality is split between Salesforce and Genesys: the chat itself is Salesforce, but the routing is done by Genesys.
 
-#### Otros escenarios en los que las empresas podrían gravitar hacia un enfoque de integración de Genesys Cloud y OmniChannel
-1. La empresa ya usa OmniChannel para digital y está contenta con él, pero está buscando un centro de contacto de nivel más empresarial.
-2. La empresa quiere aprovechar las capacidades de gestión del conocimiento de SalesForce einstein con OmniChannel
-3. Las empresas quieren aprovechar las campañas salientes de Genesys dentro de SalesForce junto con OmniChannel para las interacciones entrantes digitales
-4. Cada negocio es único, por lo que habrá otros escenarios que no se enumeran aquí
+#### Other Scenarios Where Businesses Might Gravitate towards a Genesys Cloud CX and Omni-Channel Integration Approach
+1. The business already uses Omni-Channel for digital and is happy with it but is looking for a more enterprise level Contact Center
+2. Business wants to take advantage of Salesforce einstein Knowledge management capabilities with Omni-Channel
+3. Business wants to take advantage of Genesys Outbound campaigns inside Salesforce alongside Omni-Channel for digital inbound interactions
+4. Every business is unique, so there could and will be other scenarios that are not listed here
+5. Business wants to take advantage of Salesforce einstein Knowledge management capabilities with Omni-Channel
+6. Business wants to take advantage of Genesys Outbound campaigns inside Salesforce alongside Omni-Channel for digital inbound interactions
+7. Every business is unique, so there will be other scenarios that are not listed here
+
 
